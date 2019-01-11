@@ -1,0 +1,169 @@
+body {
+    background-color: #090909;
+    min-height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.tab-body {
+    background-color: #090909;
+}
+
+a {
+    color: #fffdf4;
+}
+
+#homeHeader {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-content {
+    color: #fffdf4;
+}
+
+p {
+    color: #fffdf4;
+}
+
+h1, h2, h3 {
+    color: #fffdf4;
+}
+
+.name-tag {
+    text-decoration: underline;
+}
+
+.name-tag:hover {
+    color: #ffdd72;
+}
+
+#aboutBody {
+    background-image: url("../images/about-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#profilePic {
+    border-radius: 50%;
+}
+
+.navbar {
+    position: relative;
+    /* color: #fffdf4; */
+}
+
+.navbar-toggler-icon {
+    z-index: 2;
+    color: blue;
+}
+
+.nav-link:hover {
+    color: #ffdd72;
+}
+
+.navbar-brand:hover {
+    color: #ffdd72;
+}
+
+.nav-item .active {
+    background-color: transparent !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #2b2b2b;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fffdf4;
+    border-color: #2b2b2b #2b2b2b #090909;
+}
+
+.nav-active {
+    border-bottom: 3px solid;
+}
+
+.navbar-style:hover {
+    border-bottom: 3px solid;
+    transition: 0.2s;
+}
+
+#homeActive {
+    border-color: #ff6666;
+}
+
+#homeNav:hover {
+    border-color: #ff6666;
+    transition: 0.2s;
+}
+
+#aboutActive {
+    border-color: #ffd46c;
+}
+
+#aboutNav:hover {
+    border-color: #ffd46c;
+    transition: 0.2s;
+}
+
+#portfolioActive {
+    border-color: #67ffc5;
+}
+
+#portfolioNav:hover {
+    border-color: #67ffc5;
+    transition: 0.2s;
+}
+
+#contactActive {
+    border-color: #5bc9ff;
+}
+
+#contactNav:hover {
+    border-color: #5bc9ff;
+    transition: 0.2s;
+}
+
+.line {
+    border-bottom: 1px solid #2b2b2b;
+}
+
+.card-img-top {
+    width: 100%;
+    border-bottom-left-radius: calc(.25rem - 1px);
+    border-bottom-right-radius: calc(.25rem - 1px);
+}
+
+.card {
+    background-color: #2b2b2b;
+}
+
+.icon {
+   margin-top: 12px;
+   color: #fffdf4;
+}
+
+.icon:hover {
+    color: #fffdf4;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-icon {
+    font-size: 2rem;
+    color: #fffdf4;
+}
+
+.footer-icon:hover {
+    color: #fffdf4;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#contactBox {
+    background-color: #111;
+    border: 1px solid #292929;
+}
+
+.form-control {
+    background-color: #292929;
+}
+
